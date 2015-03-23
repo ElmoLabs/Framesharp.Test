@@ -5,6 +5,12 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framesharp.Test", "Framesharp.Test\Framesharp.Test.csproj", "{D7F6C08C-74CC-4AAD-81E6-388E513157A5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{4852FFE5-CB92-4095-A00B-BFF0B105CF1D}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\Framesharp.Core.dll = Resources\Framesharp.Core.dll
+		Resources\Framesharp.Data.dll = Resources\Framesharp.Data.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
