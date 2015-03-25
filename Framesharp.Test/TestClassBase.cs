@@ -20,6 +20,8 @@ namespace Framesharp.Test
 
             DependencyResolver.ConfigureApplication(applicationSettings);
 
+            OperationCallContext = DependencyResolver.GetInstance<IOperationCallContext>();
+
             EquivalencePartition = DependencyResolver.GetInstance<EquivalencePartitioning>();
         }
 
